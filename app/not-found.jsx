@@ -1,5 +1,5 @@
-const { Button } = require("@/components/ui/button");
-const { Link } = require("next/link");
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const NotFound = () => {
   return (

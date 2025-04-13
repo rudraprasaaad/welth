@@ -43,7 +43,7 @@ const AccountCard = ({ account }) => {
 
   useEffect(() => {
     if (error) toast.error(error.message || "Failed to update default account");
-  }, [updatedAccount, updateDefaultLoading]);
+  }, [error]);
 
   return (
     <div>
